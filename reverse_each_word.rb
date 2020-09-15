@@ -1,5 +1,6 @@
 array = []
+derp = sentence.split(" ")
 def reverse_each_word(words)
-  array = words_array.collect {|word| word.reverse}
+  array = derp.collect {|word| word.reverse}
   array.join(" ")
 end
